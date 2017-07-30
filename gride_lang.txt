@@ -1,6 +1,6 @@
 /// Currently have 2 languages (English & French) !  I NEED MORE! PLEASE TRANSLATE!
 
-// ENGLISH STRINGS
+/// English By LMM
 
 langconfig["English"]["Yes"] = "Yes"
 langconfig["English"]["No"] = "No"
@@ -51,7 +51,6 @@ langconfig["English"]["LocationPrice"] = "Max ride cost: "
 langconfig["English"]["PleaseWait"] = "Please wait while our system works its magic :)"
 langconfig["English"]["ChooseNewUserToBan"] = "Choose a player to ban"
 langconfig["English"]["BanUser"] = "Ban Player"
-langconfig["English"]["RenewLicence"] = "Your GRide License has ran out! Please re-take the test!"
 langconfig["English"]["ResignMessage"] = "We are sad to see you go... Feel free to come back anytime!"
 langconfig["English"]["TakeTest"] = "You are not a GRide employee! Type !GRide to take the test!"
 langconfig["English"]["PermsDenied"] = "GRide Permission DENIED"
@@ -68,9 +67,7 @@ langconfig["English"]["Arrived"] = "You have arrived!"
 langconfig["English"]["CusPickedUp"] = "Make sure the customer is inside your car and you can now drive them to their location!"
 langconfig["English"]["LocationToDriveTo"] = "Location to take customer to"
 
-
-// FRENCH STRINGS (BY DIABLOS)
-
+/// French By DIABLOS
 
 langconfig["French"]["Yes"] = "Oui"
 langconfig["French"]["No"] = "Non"
@@ -121,7 +118,6 @@ langconfig["French"]["LocationPrice"] = "Prix max. trajet: "
 langconfig["French"]["PleaseWait"] = "Merci d'attendre pendant que notre système tente de fonctionner, c'est magique :)"
 langconfig["French"]["ChooseNewUserToBan"] = "Choisissez un joueur à bannir"
 langconfig["French"]["BanUser"] = "Ban Joueur"
-langconfig["French"]["RenewLicence"] = "Votre licence GRide est épuisé ! Merci de reprendre le test !"
 langconfig["French"]["ResignMessage"] = "Nous sommes triste de vous voir partir... N'hésitez pas à revenir n'importe quand !"
 langconfig["French"]["TakeTest"] = "Vous n'êtes pas un employé GRide ! Écrivez !GRide pour faire le test !"
 langconfig["French"]["PermsDenied"] = "Permission GRide REFUSÉE"
