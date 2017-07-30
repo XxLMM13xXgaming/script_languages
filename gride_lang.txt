@@ -1,4 +1,6 @@
-/// Currently only have 1! (English) I NEED MORE! PLEASE TRANSLATE!
+/// Currently have 2 languages (English & French) !  I NEED MORE! PLEASE TRANSLATE!
+
+// ENGLISH STRINGS
 
 langconfig["English"]["Yes"] = "Yes"
 langconfig["English"]["No"] = "No"
@@ -66,5 +68,74 @@ langconfig["English"]["Arrived"] = "You have arrived!"
 langconfig["English"]["CusPickedUp"] = "Make sure the customer is inside your car and you can now drive them to their location!"
 langconfig["English"]["LocationToDriveTo"] = "Location to take customer to"
 
+
+// FRENCH STRINGS (BY DIABLOS)
+
+
+langconfig["French"]["Yes"] = "Oui"
+langconfig["French"]["No"] = "Non"
+langconfig["French"]["Close"] = "Fermer"
+langconfig["French"]["Comfirm"] = "Comfirmer"
+langconfig["French"]["DistanceMeasure"] = "Kilomètre(s)"
+langconfig["French"]["ConfigMainText"] = "GRide Configuration"
+langconfig["French"]["AdminMainText"] = "GRide Menu Admin"
+langconfig["French"]["TeleportToLocation"] = "Choisissez un emplacement pour le modifier (cela va vous téléporter)"
+langconfig["French"]["ChooseBannedUser"] = "Sélectionnez un utilisateur banni pour le modifier"
+langconfig["French"]["RemoveLocation"] = "Supprimer Emplacement"
+langconfig["French"]["UnBanUser"] = "Débannir l'utilisateur"
+langconfig["French"]["EditLocation"] = "Modifier Emplacement"
+langconfig["French"]["CreateLocation"] = "Créer Emplacement"
+langconfig["French"]["CreateText"] = "Comment aimeriez-vous appeler cet emplacement ?"
+langconfig["French"]["BanReasonText"] = "Merci d'entrer une raison pour le bannissement"
+langconfig["French"]["BanReason"] = "Raison du bannissement"
+langconfig["French"]["CreateNameWhat"] = "Nouveau nom d'emplacement"
+langconfig["French"]["SelectLocation"] = "Merci de sélectionner un emplacement ci-dessus !"
+langconfig["French"]["RenameText"] = "Comment aimeriez-vous renommer cet emplacement ?"
+langconfig["French"]["NewTextWhat"] = "Nouveau nom d'emplacement"
+langconfig["French"]["NotificationTitle"] = "GRide Notification"
+langconfig["French"]["MainCallForRide"] = "GRide Appeler pour un trajet"
+langconfig["French"]["SelectLocationText"] = "Sélectionner emplacement"
+langconfig["French"]["NoPermission"] = "Vous n'avez pas la permission de faire cela !"
+langconfig["French"]["MainEmployedGUITitle"] = "GRide Tableau de bord employés"
+langconfig["French"]["MainGUITitle"] = "GRide Menu Principal"
+langconfig["French"]["GUIInfoText"] = "Bonjour et bienvenue sur GRide ! Gride est un service qui vous permet de fournir des trajets dans leurs véhicules personnels pour de l'argent, et permet également aux gens d'obtenir des trajets autour de la ville. D'un côté vous pouvez appeler pour un trajet, de l'autre vous pouvez vous enregistrer pour devenir un chauffeur !"
+langconfig["French"]["MainTestGUITitle"] = "GRide Test pour employé"
+langconfig["French"]["TestStartLbl"] = "Remplissez le test du mieux que vos capacités vous le permettent !"
+langconfig["French"]["ChooseOptionText"] = "Merci de choisir une option..."
+langconfig["French"]["PassedTestText"] = "Vous avez réussi le test ! Vous êtes maintenant un employé GRide !"
+langconfig["French"]["FailedTestText"] = "Vous avez loupé le test ! Vous avez obtenu {GRide_FailedQuestions} réponse(s) fausse(s)... Essayez encore!"
+langconfig["French"]["AEmployedText"] = "Vous êtes déjà un employé GRide !"
+langconfig["French"]["JobEnableText"] = "En service"
+langconfig["French"]["ChoosePriceText"] = "Prix par kilomètre"
+langconfig["French"]["VerifiyQuitText"] = "GRide Page de démission"
+langconfig["French"]["VerifiyCallRideMain"] = "GRide Page de vérification appel?"
+langconfig["French"]["VerifiyCallRide"] = "Êtes-vous sûr de vouloir appeler pour ce trajet ?"
+langconfig["French"]["ResignQuestion"] = "Êtes-vous sûr de démissionner de GRide ?"
+langconfig["French"]["RenewLicence"] = "Votre licence GRide est épuisé ! Merci de refaire le test !"
+langconfig["French"]["StatTitle"] = "Vous pouvez voir les stats ci-dessous !"
+langconfig["French"]["NetWorthText"] = "Valeur nette: "
+langconfig["French"]["DateEmployed"] = "Date emploi: "
+langconfig["French"]["DateToRenew"] = "Date renouvellement: "
+langconfig["French"]["MilesDriven"] = "Kilomètres parcourus: "
+langconfig["French"]["LocationPrice"] = "Prix max. trajet: "
+langconfig["French"]["PleaseWait"] = "Merci d'attendre pendant que notre système tente de fonctionner, c'est magique :)"
+langconfig["French"]["ChooseNewUserToBan"] = "Choisissez un joueur à bannir"
+langconfig["French"]["BanUser"] = "Ban Joueur"
+langconfig["French"]["RenewLicence"] = "Votre licence GRide est épuisé ! Merci de reprendre le test !"
+langconfig["French"]["ResignMessage"] = "Nous sommes triste de vous voir partir... N'hésitez pas à revenir n'importe quand !"
+langconfig["French"]["TakeTest"] = "Vous n'êtes pas un employé GRide ! Écrivez !GRide pour faire le test !"
+langconfig["French"]["PermsDenied"] = "Permission GRide REFUSÉE"
+langconfig["French"]["MajorErrorReport"] = "Erreur majeure: {GRide_Error}" -- {GRide_Error} is the major error returned
+langconfig["French"]["BannedFromGRide"] = "Vous êtes banni de GRide ! ({GRide_ReasonForBan})" -- {GRide_ReasonForBan} is the reason for the person ban
+langconfig["French"]["PleaseDownloadApp"] = "Merci de télécharger l'application GRide sur votre {GRide_PhoneScript}!" -- {GRide_PhoneScript} is the phone script running (from the config)
+langconfig["French"]["CusNeedsARide"] = "{GRide_Customer} souhaite un trajet... Le paiement est de {GRide_Pay}" -- {GRide_Customer} is the customer needing a ride and {GRide_Pay} is the pay of the job
+langconfig["French"]["DriverCanDrive"] = "{GRide_Driver} peut vous y amener pour {GRide_Pay}" -- {GRide_Driver} is the driver and {GRide_Pay} is the pay
+langconfig["French"]["DriverOnWay"] = "{GRide_Driver} est en route !" -- {GRide_Driver} is the driver
+langconfig["French"]["DriveToCus"] = "Conduisez pour atteindre {GRide_Customer}" -- {GRide_Customer} is the customer
+langconfig["French"]["NoDrivers"] = "Il n'y a pas de chauffeurs qui peuvent faire le trajet pour vous actuellement :("
+langconfig["French"]["OnCooldown"] = "Vous êtes sur l'attente GRide ! Merci d'attendre {GRide_TimeLeft} minute(s)" -- {GRide_TimeLeft} is the time left in min
+langconfig["French"]["Arrived"] = "Vous êtes arrivé(e) !"
+langconfig["French"]["CusPickedUp"] = "Assurez-vous que le client est à l'intérieur du véhicule et vous pourrez ensuite l'amener à l'emplacement qu'il désire !"
+langconfig["French"]["LocationToDriveTo"] = "Emplacement pour amener le client à "
 
 /// need more translations below!
